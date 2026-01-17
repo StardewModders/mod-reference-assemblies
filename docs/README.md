@@ -15,16 +15,19 @@ To update the repo:
    refasmer -O ref-assemblies/ -c --all `
       BmFont.dll `
       CPExtBmFont.dll `
-      FAudio-CS.dll `
+      GalaxyCSharp.dll `
       Lidgren.Network.dll `
       MonoGame.Framework.dll `
+      SkiaSharp.dll `
       StardewModdingAPI.dll `
       "Stardew Valley.dll" `
       StardewValley.GameData.dll `
       xTile.dll
    refasmer -O ref-assemblies/smapi-internal/ -c --all `
       smapi-internal/0Harmony.dll `
+      smapi-internal/Newtonsoft.Json.dll `
       smapi-internal/SMAPI.Toolkit.dll `
-      smapi-internal/SMAPI.Toolkit.CoreInterfaces.dll
+      smapi-internal/SMAPI.Toolkit.CoreInterfaces.dll `
+      smapi-internal/TMXTile.dll
    ```
 4. Move the files from the `ref-assemblies` folder into the repo.
